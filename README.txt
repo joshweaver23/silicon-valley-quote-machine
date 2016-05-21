@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/jweaver/pen/eZKGdO.
+
+ This is a quote machine that I built as part of the FreeCodeCamp curriculum. It utilizes some basic html, css, jQuery, and bootstrap. It also uses a javascript random number generator to pick a quote with a "source" from an object and array. I chose to use some of my personal favorite quotes from one of my favorite shows, Silicon Valley.

@@ -1,0 +1,83 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background: url(https://i.kinja-img.com/gawker-media/image/upload/h770ihwabkvymgcqsgnj.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 10%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  font-variant: small-caps;
+  color: #800000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+h3 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #800000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  margin-top: 0;
+}
+
+.content-text {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.content-text p {
+  font-size: 24px;
+}
+
+#twitter {
+  padding-top: 15px;
+}
+
+#twitter a{
+  color: #800000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+#twitter a:hover {
+  color: #660000;
+}
+
+#new-quote {
+  color: green;
+  background-color: #262626;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+#new-quote:hover {
+  background-color: #1a1a1a;
+}
